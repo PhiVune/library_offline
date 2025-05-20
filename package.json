@@ -1,0 +1,12 @@
+{
+  "name": "hop-tri-thuc",
+  "version": "1.0.0",
+  "description": "Thư viện số offline cho cộng đồng vùng sâu vùng xa",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 

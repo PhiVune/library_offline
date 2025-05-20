@@ -1,0 +1,21 @@
+{
+    "name": "Hộp Tri Thức",
+    "short_name": "Hộp Tri Thức",
+    "description": "Thư viện số offline cho cộng đồng vùng sâu vùng xa",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#4CAF50",
+    "theme_color": "#4CAF50",
+    "icons": [
+        {
+            "src": "/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+} 

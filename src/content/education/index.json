@@ -1,0 +1,27 @@
+{
+    "category": "education",
+    "title": "Giáo dục",
+    "items": [
+        {
+            "id": "math-1",
+            "title": "Toán lớp 1",
+            "description": "Bài học về số đếm và phép tính cơ bản",
+            "type": "pdf",
+            "url": ""
+        },
+        {
+            "id": "vietnamese-1",
+            "title": "Tiếng Việt lớp 1",
+            "description": "Học bảng chữ cái và đánh vần",
+            "type": "video",
+            "url": ""
+        },
+        {
+            "id": "science-1",
+            "title": "Khoa học tự nhiên",
+            "description": "Khám phá thế giới tự nhiên xung quanh",
+            "type": "html",
+            "url": ""
+        }
+    ]
+} 
