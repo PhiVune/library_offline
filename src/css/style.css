@@ -184,7 +184,103 @@ footer {
         box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     }
     .content-card h3 {
-        font-size: 1.05rem;
+        font-size: 1rem;
+    }
+}
+/* Liên hệ */
+/* location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    color:#4CAF50;
+}
+
+h2 {
+    text-align: center;
+    color:#4CAF50;
+    font-size: 14px;
+}
+
+ul, li {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #2ea3f2;
+} */
+.contact-section {
+    background: #f7fafd;
+    padding: 40px 0;
+
+}
+.contact-title {
+    text-align: center;
+    color:#4CAF50;
+    font-size: 32px;
+}
+.contact-title::after {
+    text-align: center;
+    width: 60px;
+    height: 3px;
+    background: #4CAF50;
+    margin: 12px auto 0;
+    border-radius: 2px;
+}
+.contact-desc {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.contact-map {
+    flex: 1 10 250px;
+    min-width: 300px;
+}
+.contact-info {
+    flex: 1 1 350px;
+    min-width: 300px;
+    color: #4CAF50;
+    font-size: 1.05rem;
+}
+.contact-info strong {
+    display: block;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-info li {
+    margin-bottom: 0.7rem;
+    color: #222;
+}
+.contact-info a {
+    color: #2ea3f2;
+    text-decoration: none;
+}
+@media (max-width: 1000px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
@@ -192,4 +288,7 @@ footer {
 html, body {
     max-width: 100vw;
     overflow-x: hidden;
-} 
+}
+
+
+

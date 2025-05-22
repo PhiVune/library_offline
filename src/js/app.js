@@ -27,7 +27,7 @@ async function loadCategoryContent(category) {
         displayContent(data);
     } catch (error) {
         console.error('Lỗi khi tải nội dung:', error);
-        showError('Không thể tải nội dung. Vui lòng thử lại sau.');
+        // showError('Không thể tải nội dung. Vui lòng thử lại sau.');
     }
 }
 
